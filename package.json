@@ -1,0 +1,25 @@
+{
+  "name": "updog2",
+  "version": "1.0.0",
+  "description": "site monitoring app",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec --compilers coffee:coffee-script/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/enlore/updog.git"
+  },
+  "author": "enlore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enlore/updog/issues"
+  },
+  "homepage": "https://github.com/enlore/updog",
+  "dependencies": {
+    "coffee-script": "~1.9.1",
+    "should": "~5.1.0",
+    "mocha": "~2.2.0",
+    "mongoose": "~3.8.24"
+  }
+}
